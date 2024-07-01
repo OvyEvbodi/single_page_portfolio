@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ovy Evbodi's portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/40485fe37e.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Pinyon+Script&family=Roboto&family=Source+Serif+4:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--welcome-->
+    <div id="welcome_section_wrap" class="segment">
+        <div id="welcome_section">
+            <h1 class="title">Welcome to my space</h1>
+            <h2 > I'm <strong>Ovy Evbodi</strong></h2>
+            <p>Take a shallow dive into my world, and if you like what you see, 
+               connect with me to go even deeper into the Ovy experience.</p>
+            <a href="#contact"><button>Let's talk</button></a> 
+        </div>
+    </div>
+    <!--connect-->
+    <div id="connect" class="segment">
+        <div id="connect_header_wrap">
+            <h2 id="about_page_title" >connect</h2>
+        </div>
+        <div id="services_wrap">
+            <div id="service_head">
+                <h4>services</h4>
+                <p id="service_description">I'm open to <span> Software Engineering </span> and <span> Data Analysis </span> jobs/gigs. </p>
+                <div>
+                    <h4 data-testid="slackDisplayName">Slack Name: Ovy Evbodi</h4>
+                    <h4 data-testid="currentTimeUTC" id="current_time"></h4>
+                    <h4 data-testid="currentDay" id="current_day">Current Day of the Week: </h4>
+                    <h4 data-testid="slackEmail">Slack Email: evbodiovo@gmail.com</h4>
+                </div>
+            </div>
+            
+            <div id="form_wrap">
+                <form taget="blank" method="POST" action="https://formsubmit.co/evbodiovo@gmail.com">
+                    <h3 id="form_title" >reach out to me</h3>
+                    <div class="form_unit">
+                        <input name="email" type="email" placeholder="Enter you email">
+                        <label for="email"></label>
+                    </div>
+                    <div class="form_unit">
+                        <input name="message" type="text" placeholder="Your message....">
+                        <label for="message"></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="service1" value="Front-end Web Development">
+                        <label for="service1">Web Development</label>
+                        <input type="checkbox" name="service2" value="Data Analysis">
+                        <label for="service2">Data Analysis</label>
+                    </div>
+                    <input id="submit_btn" type="submit" value="connect">
+                </form>
+            </div>
+        </div>
+        <aside id="about_wrap">
+            <div id="about">
+                <header id="about_header_wrap">
+                    <div>
+                        <h3 id="about_title">about me</h3>
+                    </div>
+                    <div id="about_img_wrap">
+                        <img data-testid="slackProfilePicture" src="images/profile-purple.jpeg" alt="Ovy Evbodi's portrait">
+                    </div>
+                    <div>
+                        <div class="info_container">
+                            <i class="fas fa-female"></i>
+                            <p>Ovy Evbodi</p>
+                        </div>
+                        <div class="info_container">
+                            <i class="fas fa-envelope"></i>
+                            <p><a  target="_blank" href="mailto:evbodiovo@gmail.com">evbodiovo@gmail.com</a></p>
+                        </div>
+                        <div class="info_container">
+                            <p>lagos, nigeria</p>
+                        </div>
+                    </div>
+                </header>
+                <article>
+                    <div>
+                        <h3>My Goals For The Next 2 Years</h3>
+                            <p>  
+                                 We all just want to feel accomplished in life, to be brutally honest. Before I share my goal with you, how about some back story? <br>I started my journey by learning one of the most versatile programming languages - Python,
+                                 in January, but I only took free online courses which unfortunately didn't 
+                                 offer me any certifications. I was watching one of my usual Python videos on YouTube 
+                                 when I saw an ad to study Python(and get certified) for free via the ALX-T scholarship program, 
+                                 and as expected of a devoted and erudite person, I grabbed the opportunity! I enrolled for the free 
+                                 Python course, and took on an additional Javascript course.<br> Now, I have both certifications in addition to  
+                                 Udacity's Data Analyst Nanodegree certificate. I went even further
+                                 to become a bonafide software engineer, while taking the AWS Cloud Practitioner course on the side.<br>
+                                 In the next 2 years, I see myself successfully planning the launch of my very own digital product. I have a couple of ideas in mind, but would
+                                 love to solidify my knowledge with some real world experience before delving into business. I hope to be working with a multi-national company by that time.
+                                 <br> Checkout the following sites for Lord knows what! 
+                                 <a href="http://keyword.dog/" data-testid="keywordLink">keyword dog </a>
+                                 <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">scrape any website </a>
+                                 <a href="http://hng.tech/learn" data-testid="hngLink"> HNG tech</a>
+                            </p>
+                        </details>
+                    </div>
+                </article>
+            </div>
+        </aside>
+        <div id="skills" class="seg_content_wrap">
+            <h3>My skills</h3>
+            <div>
+                I promise to go straight to the point<br>
+                Git, Docker, Agile, AWS, Database Administration, Flask,<br> Linux,
+                Next js, React js, Node.js, TypeScript, ExpressJS, CI/CD
+            </div>
+            <div class="skill_container">
+                <i class="fab fa-python"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-html5"></i>
+            </div>
+        </div>
+    </div>
+<!--contact-->          
+    <footer id="contact">
+        <div>
+            <div>
+                <h3>how do you hang out online?</h3>
+            </div>
+            <div id="footer_skills">
+                <a  target="_blank" href="https://www.linkedin.com/in/ovy-evbodi-21920a203/"><i class="fab fa-linkedin"></i></a>  
+                <a  target="_blank" href="twitter"><i class="fab fa-twitter"></i></a>
+                <a  target="_blank" href="https://github.com/OvyEvbodi" ><i class="fab fa-github"></i></a>
+                <a  target="_blank" href="mailto:evbodiovo@gmail.com"><i class="fas fa-at"></i></a> 
+            </div>
+        </div>
+        <div id="quicklinks">
+            <div>
+                <h3>quick links</h3>
+            </div>
+            <div id="footer_links_wrap">
+                <a href="#home">home</a>
+                <a href="#about">about me</a>
+                <a href="#form_wrap">hire me</a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; OvyEvbodi 2021</p>
+        </div>     
+    </footer>
+    <div id="overlay"></div>
+    <script rel="script" src="js/script.js"></script>
+</body>
+</html>
